@@ -2,4 +2,6 @@
 
 source 'https://rubygems.org'
 
-# Detection-only fixture; no runtime gems required
+# PROBE-SCA-001: intentionally outdated gems
+gem 'rack', '2.0.8'
+gem 'nokogiri', '1.12.5'
